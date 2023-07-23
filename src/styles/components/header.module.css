@@ -1,0 +1,41 @@
+.header {
+  background-color: white;
+  padding: 10px;
+  border-bottom: 1px solid #ccc;
+}
+
+.headerTool {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  flex-grow: 1;
+  text-align: left;
+  justify-content: flex-start;
+  width: 50px;
+  height: 50px;
+}
+
+.centerContainer {
+  flex-grow: 1;
+  display: flex;
+  justify-content: center;
+}
+
+.rightContainer {
+  flex-grow: 1;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.companyName {
+  text-align: center;
+  color: black;
+}
+
+.username {
+  text-align: right;
+  color: black;
+}

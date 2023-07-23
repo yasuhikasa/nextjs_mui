@@ -1,0 +1,18 @@
+/* styles/components/layout.module.css */
+.layout {
+  display: flex;
+  height: calc(100vh - 64px);  /* ヘッダーの高さを除く */
+}
+
+.sidebar {
+  width: 200px;
+  border-top: 1px solid #ccc;
+  border-right: 1px solid #ccc;
+  overflow: auto;
+}
+
+.mainContent {
+  background-color: #f0f0f0;
+  flex-grow: 1;
+  overflow: auto;
+}
